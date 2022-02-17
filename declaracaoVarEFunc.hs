@@ -22,10 +22,3 @@ maxi n m | n >= m = n
 
 -- a ? b : c ou a if cond else b
 
-vendas :: Int -> Int
-vendas n = n 
-
-totalVendas :: Int -> Int
-totalVendas n | n == 0 = 0 -- Nao ha lacos de repeticao, se usa funcao recursiva 
-              | n > 0 = vendas n + totalVendas (n -1)
-              | otherwise = 0
