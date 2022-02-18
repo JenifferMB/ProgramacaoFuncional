@@ -21,3 +21,5 @@ DUPLICACAO DE ELEMENTOS TAMBEM IMPORTAM
 (:) :: Int -> [Int] -> [Int]
 (:) :: Bool -> [Bool] -> [Bool]
 -- (:) :: t -> [t] -> [t] 
+
+-- [1..10]
